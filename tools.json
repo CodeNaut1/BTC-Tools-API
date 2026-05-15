@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Blink",
+    "category": "wallet",
+    "description": "Lightning-first wallet with easy onboarding. Popular in Africa and Latin America.",
+    "url": "https://blink.sv",
+    "platforms": ["ios", "android", "web"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["global", "africa", "latam"]
+  },
+  {
+    "name": "Phoenix",
+    "category": "wallet",
+    "description": "Self-custodial Lightning wallet by ACINQ. Automatic channel management.",
+    "url": "https://phoenix.acinq.co",
+    "platforms": ["ios", "android"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Blue Wallet",
+    "category": "wallet",
+    "description": "Open-source Bitcoin and Lightning wallet with multisig support.",
+    "url": "https://bluewallet.io",
+    "platforms": ["ios", "android"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Alby",
+    "category": "wallet",
+    "description": "Browser extension Lightning wallet. Great for web payments, tipping, and Nostr.",
+    "url": "https://getalby.com",
+    "platforms": ["browser", "web"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Muun",
+    "category": "wallet",
+    "description": "Simple self-custodial wallet for Bitcoin and Lightning.",
+    "url": "https://muun.com",
+    "platforms": ["ios", "android"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Machankura",
+    "category": "wallet",
+    "description": "Bitcoin via USSD — no internet needed. Designed for Africa.",
+    "url": "https://8333.mobi",
+    "platforms": ["ussd"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["africa"]
+  },
+  {
+    "name": "Mempool.space",
+    "category": "transaction_tracker",
+    "description": "Open-source Bitcoin blockchain explorer. Real-time mempool visualisation.",
+    "url": "https://mempool.space",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Blockstream Explorer",
+    "category": "transaction_tracker",
+    "description": "Bitcoin and Liquid blockchain explorer by Blockstream.",
+    "url": "https://blockstream.info",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Mempool Fee Estimator",
+    "category": "fee_estimator",
+    "description": "Real-time Bitcoin transaction fee estimates based on mempool congestion.",
+    "url": "https://mempool.space/fees",
+    "platforms": ["web", "api"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Bitcoiner.Guide Fee Calculator",
+    "category": "fee_estimator",
+    "description": "Simple tool to estimate transaction fees and priority levels.",
+    "url": "https://bitcoiner.guide/fees",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "BTCPay Server",
+    "category": "invoicing",
+    "description": "Self-hosted, open-source payment processor. Accept Bitcoin and Lightning payments.",
+    "url": "https://btcpayserver.org",
+    "platforms": ["web", "self-hosted"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Zaprite",
+    "category": "invoicing",
+    "description": "Bitcoin invoicing for freelancers and businesses. Clean UI, Lightning support.",
+    "url": "https://zaprite.com",
+    "platforms": ["web"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Bitnob",
+    "category": "exchange",
+    "description": "Buy, sell, and save Bitcoin in Africa. Supports Nigeria, Ghana, Kenya.",
+    "url": "https://bitnob.com",
+    "platforms": ["ios", "android", "web"],
+    "lightning": true,
+    "onchain": true,
+    "region": ["africa", "nigeria", "ghana", "kenya"]
+  },
+  {
+    "name": "Quidax",
+    "category": "exchange",
+    "description": "Nigerian crypto exchange supporting Bitcoin, Lightning, and naira on/off-ramp.",
+    "url": "https://quidax.com",
+    "platforms": ["ios", "android", "web"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["africa", "nigeria"]
+  },
+  {
+    "name": "CoinGecko",
+    "category": "price_checker",
+    "description": "Comprehensive crypto price tracker with charts, market data, and free API.",
+    "url": "https://coingecko.com",
+    "platforms": ["web", "ios", "android", "api"],
+    "lightning": false,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "CoinMarketCap",
+    "category": "price_checker",
+    "description": "Popular crypto price and market cap tracker with portfolio tools.",
+    "url": "https://coinmarketcap.com",
+    "platforms": ["web", "ios", "android", "api"],
+    "lightning": false,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Clark Moody Dashboard",
+    "category": "price_checker",
+    "description": "Bitcoin-only dashboard with price, hashrate, difficulty, mempool, and Lightning stats.",
+    "url": "https://bitcoin.clarkmoody.com/dashboard",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Bisq",
+    "category": "exchange",
+    "description": "Decentralised peer-to-peer Bitcoin exchange. No KYC required.",
+    "url": "https://bisq.network",
+    "platforms": ["desktop"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "RoboSats",
+    "category": "exchange",
+    "description": "Private peer-to-peer Lightning exchange over Tor. No KYC.",
+    "url": "https://robosats.com",
+    "platforms": ["web", "tor"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Sparrow Wallet",
+    "category": "wallet",
+    "description": "Desktop Bitcoin wallet focused on security and privacy. Supports hardware wallets and multisig.",
+    "url": "https://sparrowwallet.com",
+    "platforms": ["desktop"],
+    "lightning": false,
+    "onchain": true,
+    "region": ["global"]
+  },
+  {
+    "name": "Amboss",
+    "category": "lightning_tools",
+    "description": "Lightning Network explorer and analytics. Node insights, channel data, and Magma liquidity marketplace.",
+    "url": "https://amboss.space",
+    "platforms": ["web"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "1ML",
+    "category": "lightning_tools",
+    "description": "Lightning Network search and analysis engine. Node and channel statistics.",
+    "url": "https://1ml.com",
+    "platforms": ["web"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "LNBits",
+    "category": "lightning_tools",
+    "description": "Free and open-source Lightning accounts system. Build apps, manage wallets, run extensions.",
+    "url": "https://lnbits.com",
+    "platforms": ["web", "self-hosted"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Bolt Card",
+    "category": "lightning_tools",
+    "description": "NFC card for contactless Lightning payments. Tap to pay anywhere.",
+    "url": "https://boltcard.org",
+    "platforms": ["hardware"],
+    "lightning": true,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "Bitcoiner.Guide",
+    "category": "education",
+    "description": "Comprehensive guides for Bitcoin wallets, nodes, privacy, and more. Beginner to advanced.",
+    "url": "https://bitcoiner.guide",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": false,
+    "region": ["global"]
+  },
+  {
+    "name": "African Bitcoiners",
+    "category": "education",
+    "description": "Bitcoin education platform for Africa. Courses, news, and community resources.",
+    "url": "https://bitcoiners.africa",
+    "platforms": ["web"],
+    "lightning": false,
+    "onchain": false,
+    "region": ["africa", "nigeria"]
+  }
+]
