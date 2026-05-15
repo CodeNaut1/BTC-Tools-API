@@ -17,7 +17,7 @@ function loadTools() {
 app.get('/', (req, res) => {
   res.json({
     service: 'Bitcoin Tools Directory',
-    provider: 'EM | African Bitcoiners',
+    provider: 'EM',
     version: '1.0.0',
     endpoints: {
       all_tools: 'GET /tools',
